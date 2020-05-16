@@ -23,7 +23,7 @@
   <!-- robot model -->
   <include file="$(arg robot_description_file)">
     <arg name="limited" value="$(arg limited)"/>
-    <arg name="kinematics_config" value="$(arg kinematics_config)"/>
+    <!--arg name="kinematics_config" value="$(arg kinematics_config)"/-->
   </include>
 
   <!-- Convert joint states to /tf tranforms -->
